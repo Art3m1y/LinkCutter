@@ -1,0 +1,19 @@
+# This is profile for development (default profile)
+spring:
+  jpa.properties:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      show-sql: true
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_URL}/${spring.application.name}
+    username: ${POSTGRES_USERNAME}
+    password: ${POSTGRES_PASSWORD}
+  application:
+    name: link-cutter
+
+server:
+  port: ${BACKEND_APPLICATION_PORT}
+
+default-url: http://localhost:${server.port}/
+
+
