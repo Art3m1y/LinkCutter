@@ -1,7 +1,7 @@
 
 ### Description
 
-Service for shorting links on Java Spring 3 framework.
+Service for shorting links on Java Spring framework 6.
 
 ### Implemented features:
 
@@ -13,7 +13,7 @@ Service for shorting links on Java Spring 3 framework.
 ### Technologies
 
 - Java
-- Spring framework 3
+- Spring framework 6
 - Hibernate
 - PostgreSQL
 - JUnit 5
